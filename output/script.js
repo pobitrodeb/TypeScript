@@ -19,3 +19,7 @@ let student = {
     depatment: 'CSE'
 };
 student.name = 'Pobitro Deb';
+// Explicit & Union Types Session: 
+let a = [];
+let b = []; // this is union 
+b.push(54521, 'this is string');
