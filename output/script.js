@@ -12,3 +12,10 @@ console.log(newFriuts);
 let mixData = ['12', 'Fist name ', true, 'Ok'];
 let newMixData = mixData.push('New Data');
 console.log(newMixData);
+//Object 
+let student = {
+    name: 'KeyaMoni Roy',
+    roll: 301974,
+    depatment: 'CSE'
+};
+student.name = 'Pobitro Deb';
