@@ -28,3 +28,10 @@ let a: string[] = [];
 let b: (string | number) [] = [];   // this is union 
 
 b.push(54521,'this is string',)
+
+// Dynamic Type Session 
+
+let d: any[] = []; 
+d.push('this is sting'); 
+d.push(451215);
+

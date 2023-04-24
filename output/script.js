@@ -23,3 +23,7 @@ student.name = 'Pobitro Deb';
 let a = [];
 let b = []; // this is union 
 b.push(54521, 'this is string');
+// Dynamic Type Session 
+let d = [];
+d.push('this is sting');
+d.push(451215);
