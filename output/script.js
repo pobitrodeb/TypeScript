@@ -36,6 +36,6 @@ myFunction = () => {
 myFunction();
 // when set param with data type 
 const students = (a, b) => {
-    console.log('call params');
+    console.log(`Hello ${a} , ${b}`);
 };
 students('Rajib', 'Swapon');
