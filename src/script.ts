@@ -69,3 +69,28 @@ userDetails = (id: number | string, userInfo:{
 
 }
 
+// Classes - TypeScript
+class Player { 
+    name: string; 
+    age: number; 
+    country: string;
+
+    constructor ( n: string, a:number, c:string){
+        this.name = n; 
+        this.age = a; 
+        this.country = c; 
+    }
+
+    play(){
+        console.log(`${this.name}, ${this.age}, ${this.country} is playing`);
+    }
+}
+
+const mashrafi = new Player('Mashrafi', 40, 'Ban');
+const shakib = new Player('Sakib', 39, 'Ban')
+
+// console.log(mashrafi.name);
+// console.log(shakib.age);  
+
+const players: Player[] = []; 
+players.push(shakib)

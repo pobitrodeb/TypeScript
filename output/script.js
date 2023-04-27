@@ -43,3 +43,20 @@ students('Rajib', 'Swapon');
 let userDetails; // void is return type 
 userDetails = (id, userInfo) => {
 };
+// Classes - TypeScript
+class Player {
+    constructor(n, a, c) {
+        this.name = n;
+        this.age = a;
+        this.country = c;
+    }
+    play() {
+        console.log(`${this.name}, ${this.age}, ${this.country} is playing`);
+    }
+}
+const mashrafi = new Player('Mashrafi', 40, 'Ban');
+const shakib = new Player('Sakib', 39, 'Ban');
+// console.log(mashrafi.name);
+// console.log(shakib.age);  
+const players = [];
+players.push(shakib);
