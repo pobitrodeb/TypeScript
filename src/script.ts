@@ -46,4 +46,11 @@ myFunction = () => {
 }
 myFunction()
 
+// when set param with data type 
+
+const students = (a: string, b: string) => {            // string mean fixed param data type 
+    console.log('call params');
+}; 
+
+students('Rajib', 'Swapon');
 

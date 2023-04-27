@@ -34,3 +34,8 @@ myFunction = () => {
     console.log('function working');
 };
 myFunction();
+// when set param with data type 
+const students = (a, b) => {
+    console.log('call params');
+};
+students('Rajib', 'Swapon');
