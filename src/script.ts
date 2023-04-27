@@ -48,7 +48,7 @@ myFunction()
 
 // when set param with data type 
 
-const students = (a: string, b: string) => {            // string mean fixed param data type 
+const students = (a: string, b: string, c?:string) => {    // string mean fixed param data type | c? means optional params
     console.log(`Hello ${a} , ${b}`);
 }; 
 

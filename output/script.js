@@ -35,7 +35,7 @@ myFunction = () => {
 };
 myFunction();
 // when set param with data type 
-const students = (a, b) => {
+const students = (a, b, c) => {
     console.log(`Hello ${a} , ${b}`);
 };
 students('Rajib', 'Swapon');
