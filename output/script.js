@@ -39,3 +39,7 @@ const students = (a, b, c) => {
     console.log(`Hello ${a} , ${b}`);
 };
 students('Rajib', 'Swapon');
+// Function Signatures
+let userDetails; // void is return type 
+userDetails = (id, userInfo) => {
+};

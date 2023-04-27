@@ -54,3 +54,18 @@ const students = (a: string, b: string, c?:string) => {    // string mean fixed 
 
 students('Rajib', 'Swapon');
 
+// Function Signatures
+
+let userDetails: (id: number | string , userInfo: {
+    name: string, 
+    age: number
+})=> void   // void is return type 
+
+
+userDetails = (id: number | string, userInfo:{
+    name: string, 
+    age: number
+})=> {
+
+}
+
