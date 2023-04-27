@@ -35,3 +35,15 @@ let d: any[] = [];
 d.push('this is sting'); 
 d.push(451215);
 
+// How to use Functions - TypeScript
+
+
+// ---------- TypeScript Function --------- 
+let myFunction: Function; 
+
+myFunction = () => {
+    console.log('function working');
+}
+myFunction()
+
+

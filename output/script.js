@@ -27,3 +27,10 @@ b.push(54521, 'this is string');
 let d = [];
 d.push('this is sting');
 d.push(451215);
+// How to use Functions - TypeScript
+// ---------- TypeScript Function --------- 
+let myFunction;
+myFunction = () => {
+    console.log('function working');
+};
+myFunction();
